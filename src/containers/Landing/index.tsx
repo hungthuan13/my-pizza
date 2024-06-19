@@ -4,10 +4,11 @@ import React from "react";
 import MenuSection from "../../components/MenuSection";
 import NavBar from "../../components/NavBar";
 import SlideShow from "../../components/SlideShow";
+import Footer from "../../components/Footer";
 
 const LandingPage: React.FC = () => {
   return (
-    <section id="services" className="py-12 bg-gray-200">
+    <section id="services" className="bg-gray-200">
       <NavBar />
       <h2 className="text-3xl font-bold mb-8">Our Services</h2>
       <div className="mb-10 rounded-sm">
@@ -32,6 +33,7 @@ const LandingPage: React.FC = () => {
         </div>
       </div>
       <MenuSection />
+      <Footer />
     </section>
   );
 };
